@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 清除浮动 */
+.clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+.clearfix {*zoom: 1;}   /* IE6、7 专有 */
+
+/*顶部nav开始*/
+.header{
+    background-color:white;
+    height: 100px;
+}
+
+.header .inner{
+    width: 1200px;
+    height: 100px;
+
+    margin: 0 auto;
+}
+.inner img{
+    float: left;
+}
+.inner ul {
+    float: right;
+}
+
+.inner li{
+    float: left;
+    list-style: none;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 22px;
+}
+.inner a{
+    text-decoration: none;
+    color: #333;
+}
+
+.inner a:hover{
+    color: #2288f6;
+}
+/*顶部nav结束*/
+
+/* banner START */
+.banner {
+	height: 620px;
+	background: url(../images/banner.jpg) no-repeat top center;
+}
+/* 我的服务 START */
+.service{
+    margin: 0 auto;
+    width: 1055px;
+    text-align: center;
+}
+
+ .title{
+    border-top: 1px solid #ccc;
+    margin: 60px 20px;
+}
+.title img{
+    display: inline-block;
+    width: 167px;
+    height: 46px;
+    margin-top: -20px;
+}
+.service p{
+    margin: 24px 80px;
+    color: #666;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.service li {
+    width: 325px;
+    height: 510px;
+    border: 1px solid #ccc;
+    background-color: white;
+    float: left;
+    list-style: none;
+}
+.service .second {
+    margin: 0 37px;
+}
+
+.service li img {
+    width: 248px;
+    height: 132px;
+    margin: 40px auto;
+}
+
+.service li h3 {
+    margin: 20px auto 0;
+    font-size: 18px;
+    font-weight: 400;
+    height: 40px;
+}
+.service li p {
+   display: block;
+   margin: 0 40px;
+   line-height: 26px;
+}
+
+.service li a {
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 30px auto;
+    text-decoration: none;
+    color: #ff9412;
+    line-height: 40px;
+    border: 1px solid  #ff9412;
+    border-radius: 5px;
+ }
+ .service li a:hover{
+    color: white;
+    background-color: #ff9412;
+ }
+
+ /* 我的服务 END */
+
+ /* 经典案例 SRART */
+ .case{
+    margin: 0 auto;
+    width: 1055px;
+    text-align: center;
+    position: relative;
+}
+.case ul{
+    position: relative;
+}
+.case li{
+    width: 324px;
+    height: 211px;
+    float: left;
+    background-color: pink;
+    list-style: none;
+    background: url(../images/pro1.png) center no-repeat;
+    position: relative;
+}
+
+.case .second {
+    margin: 0 40px;
+}
+.case li p {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) url(../images/fdj.png) center no-repeat;
+    display: none;
+}
+.case li:hover .mask{
+    display: block;
+}
+
+.arrow{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    color: white;
+    text-decoration: none;
+}
+.left{
+    left: -90px;
+}
+.right{
+    right: -90px;
+}
+.arrow:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+ /* 经典案例 END */
+
+/* 合作媒体 start */
+
+.media{
+    margin: 0 auto;
+    width: 1055px;
+    text-align: center;
+    position: relative;
+}
+
+.media .medialist{
+    width: 1040px;
+    height: 210px;
+    overflow: hidden;
+}
+.media ul{
+    width: 1056px;
+}
+
+.media li{
+    list-style: none;
+    float: left;
+    width: 208px;
+    height: 70px;
+    display: inline-block;
+    border-bottom: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+
+}
+
+.media li img{
+   margin: 15px auto;
+}
+
+/* 合作媒体 END */
+
+/* 尾部 start */
+.footer{
+    height: 166px;
+    background:url(../images/wx.jpg) repeat-x;
+    text-align: center;
+    margin-top: 96px;
+    color: white;
+}
+
+.footer a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+     /* 滑动门实现 a标签里面嵌套span 父布局左边background */
+    line-height: 33px;
+    padding-left: 15px;
+    background: url(../images/to.png) no-repeat left;  
+
+}
+.footer a span{
+    display: block;
+    line-height: 33px;
+    /* 滑动门实现 a标签里面嵌套span 子布局右边给background */
+    background: url(../images/to.png) no-repeat right center;
+    padding-right: 15px;
+
+}
+
+.footer .subnav a:hover{
+    color: #2288f6;
+    text-decoration: underline;
+    background-image: url(../images/ao.png);
+}
+
+.footer .subnav a:hover span{
+    color: #2288f6;
+    text-decoration: underline;
+    background-image: url(../images/ao.png);
+}
+
+.footer p{
+    margin-top: 40px;
+    color: #888888;
+}
+/* 尾部 END */

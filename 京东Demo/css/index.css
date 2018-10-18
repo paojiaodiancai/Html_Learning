@@ -1,0 +1,190 @@
+.center-top {
+	/*background-color: pink;*/
+	height: 480px;
+	margin-bottom: 20px;
+}
+
+.center-top .center-top-left{
+	width: 190px;
+	height: 100%;
+	background-color: #6e6568;
+}
+
+.center-top-left {
+	float: left;	
+}
+
+.center-top-left ul {
+	padding-top: 10px;
+}
+
+.center-top-left ul li{
+	padding-left: 10px;
+	font-size: 14px;
+	height: 29px;
+	line-height: 26px;
+}
+
+.center-top-left ul li a {
+	color: #fff;
+}
+
+.center-top-left ul li a:hover {
+	color: #f10215;
+}
+
+.center-top-left ul li:hover{
+	background-color: #ccc;
+}
+
+.center-top-left ul span{
+	color: #fff;
+	font-size: 12px;
+}
+
+.center-top .center-top-banner {
+	width: 790px;
+	height: 100%;
+	float: left;	
+	margin: 0 10px;
+	position: relative;
+}
+
+.center-top .center-top-banner ul{
+	margin-bottom: 5px;
+}
+
+.center-top .center-top-banner .banner {
+	position: relative;
+}
+
+.center-top .center-top-banner .banner .banner-bottom{
+	width: 390px;
+	height: 130px;
+	float: left;
+}
+
+.bottom-left{
+	margin-right: 10px;
+	background: url(../images/l.jpg);
+}
+
+.bottom-right{
+	background: url(../images/r.jpg);
+}
+
+.arrow-l{
+	width: 30px;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	left: 0;
+
+}
+
+.arrow-r {
+	width: 30px;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	right: 0;
+}
+.arrow a{
+	display: block;
+	width: 100%
+	height:100%;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.arrow a:hover {
+	color: #f10215;
+}
+
+.circle {
+	width: 168px;
+	height: 20px;
+	position: absolute;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -84px;
+	padding-left: 8px;
+}
+
+.circle li{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+	margin: 4px;
+}
+
+.circle .current{
+	background-color: #f10215;
+}
+
+.center-top-right {
+	float: right;
+	width: 190px;
+	height: 100%;
+	background-color: #fff;
+}
+
+.login{
+	width: 160px;
+	height: 86px;
+	padding: 15px;
+}
+
+.userinfo {
+	position: relative;
+}
+
+.userinfo .avatar{
+	width: 50px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	background: url(../images/sprite_userinfo@1x.png) no-repeat -70px 0
+}
+
+.userinfo img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.login-t {
+	width: 95px;
+	height: 60px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	font-size: 12px;
+	padding: 0 5px;
+	color: #ccc;
+
+}
+
+.login .fuli{
+	color: #f10215;
+	font-size: 12px;
+	border: 1px solid  #f10215;
+	padding: 2px;
+}
+
+.login-t a{
+	font-size: 12px;
+}
+
